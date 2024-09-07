@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
 
-URL="https://pp-2402191821hh.portal.ptc.io:9443/cb/rest/xunitresults"
+URL="https://alm.codebeamer.com/rest/xunitresults"
 USER="pat"
-PASS="ptc"
+PASS="ptcptc!!"
 
 # required params
 # testCaseTrackerId     - The tracker id of the test cases
 # testRunTrackerId      - The tracker id where the test runs going to be populated
-TEST_CASE_TRACKER_ID="9094"
-TEST_RUN_TRACKER_ID="9116"
-FILE=$6
+TEST_CASE_TRACKER_ID="457388"
+TEST_RUN_TRACKER_ID="457377"
+FILE=
 
 # optional params
 # testConfigurationId   - Test configuration
