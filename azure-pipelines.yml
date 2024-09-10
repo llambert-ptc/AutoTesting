@@ -39,4 +39,4 @@ steps:
 - task: Bash@3
   inputs:
     filePath: '$(Build.SourcesDirectory)/upload.sh'
-    arguments: '$(URL) $(USER) $(PASS) $(TCID) $(TRID) $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    arguments: 'URL USER PASS TCID TRID $(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
