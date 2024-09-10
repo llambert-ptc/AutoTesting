@@ -34,7 +34,7 @@ curl -v --location --request POST $URL -u "$USER:$PASS" \
 # 
 #   Optionally, we can upload the target file to a Windchill Instance
 #
-WINDCHILL_INSTANCE="24010820322v"
+#WINDCHILL_INSTANCE="24010820322v"
 SOFTWARE_PART_NUMBER="0000387"
 TARGET_FILEPATH=$(realpath "$(pwd)/target")
 TARGET_FILENAME="SamplePackage.jar"
