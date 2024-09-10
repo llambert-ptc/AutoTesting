@@ -8,7 +8,7 @@ trigger:
 - main
 
 pool:
-  Azure Pipelines
+  Self-Hosted Agent Pool
 
 steps:
 - task: Maven@3
